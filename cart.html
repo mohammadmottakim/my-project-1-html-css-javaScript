@@ -19,9 +19,9 @@
                     <li><a  href="index.html">Home</a></li>
                     <li><a  href="index.html">Shope</a></li>
                     <li><a  href="blog.html">Blog</a></li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a id="lg-bag" href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a  href="contact.html">Contact</a></li>
+                    <li><a id="lg-bag" class="active"  href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
                     <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
                 </ul>
         </div>
@@ -36,77 +36,87 @@
 
     <!-- Hero area code satrt haer  -->
     <section id="page-header" class="about-header">    
-        <h2>#KnowUs</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, WE love to hear from you</p>
     </section>
-    <!-- Hero area code End Now  -->
+    <!-- Hero area code End Now  -->\
+ <section id="cart" class="section-p1">
+        <table width="100%">
+           <thead>
+            <tr>
+                <td>Remove</td>
+                <td> Image </td>
+                <td>Product</td>
+                <td>Pricr</td>
+                <td>Quantity</td> 
+                <td>Subtotal</td>
+            </tr>
+           </thead>
 
-    <section id="about-head" class="section-p1">
-        <img src="img/about/a6.jpg" alt="">
-        <div>
-            <h2>Who We Are?</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam tempore nisi nostrum nobis quis debitis delectus, doloribus eligendi sit veritatis alias dolorem nesciunt non dolores aperiam impedit vel ab id minima corporis repudiandae, laborum perferendis repellat. Eius illum rerum, ipsam est quae tenetur, impedit accusantium id inventore dolor eum.
-            </p>
-            <abbr title="">
-                Creat stunning images with as much or as little control as you link thanks to a choice of Basic and Creative mode.
-            </abbr>
-            <br><br>
-            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%" > Creat stunnin image with as much or as little control as you like thanks to a choice of basic and Creative modes. </marquee>
+           <tbody>
+            
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astromaut T-sharts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+                
+            </tr>
 
-        </div>
-    </section>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astromaut T-sharts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+                
+            </tr>
 
-    <section id="about-app" class="section-p1">
-            <h1>Downlode Our <a href="#">App</a></h1>
-            <div class="video">
-                <video autoplay muted loop src="img/about/1.mp4"></video>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astromaut T-sharts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+                
+            </tr>
+            
+           </tbody>
+           
+        </table>
+ </section>
+
+  <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
             </div>
-    </section>
-
-    <section id="feature" class="section-p1">
-
-        <div class="fe-box">
-                <img src="img/features/f1.png" alt="">
-                <h6>Free Shipping</h6>
         </div>
-        <div class="fe-box">
-                <img src="img/features/f2.png" alt="">
-                <h6>Online Order</h6>
+        <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>cart Subtotal</td>
+                        <td>$ 335</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><Strong>Total</Strong></td>
+                        <td><Strong>$ 335</Strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
         </div>
-        <div class="fe-box">
-                <img src="img/features/f3.png" alt="">
-                <h6>Save Money</h6>
-        </div>
-        <div class="fe-box">
-                <img src="img/features/f4.png" alt="">
-                <h6>Promotions</h6>
-        </div>
-        <div class="fe-box">
-                <img src="img/features/f5.png" alt="">
-                <h6>Happy Sell</h6>
-        </div>
-        <div class="fe-box">
-                <img src="img/features/f6.png" alt="">
-                <h6>24/7 Support</h6>
-        </div>
-
-    </section> 
-
-     <!-- sign Up for newsLetters section code start now  -->
-
-     <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sing Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your e-mail address">
-            <button class="normal">Sign Up</button>
-        </div>
-   </section>
-  <!-- sign Up for newsLetters section code End now  -->
- 
+  </section>
 
       <footer class="section-p1">
                 <div class="col">
